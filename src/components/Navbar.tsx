@@ -8,9 +8,9 @@ export const Navbar = () => {
         <div className="font-bold text-3xl flex items-center h-12 text-[#F97300] cursor-pointer">
             Ziya.
         </div>
-        <div className="flex items-center gap-2 h-12 relative text-black">
-            <Dashboard />
-            <ThemeButton />
+        <div className="flex items-center gap-2 h-12 relative text-black dark:text-white">
+          <Dashboard />
+          <ThemeButton />
         </div>
     </nav>
   );

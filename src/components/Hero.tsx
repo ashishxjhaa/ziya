@@ -3,7 +3,7 @@
 
 export default function Hero() {
   return (
-    <div className="bg-white text-black px-5 py-10">
+    <div className="text-black dark:text-white px-10 py-10">
       <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repellat nam atque natus delectus, dolor eligendi totam magnam, praesentium dignissimos consectetur excepturi qui magni. Fuga illum vel debitis unde beatae.
       Dolores quasi asperiores, animi id, laudantium dolorum aperiam quaerat, dolore dolorem magnam eaque voluptatibus molestias nostrum fugit aliquid at ipsum consequuntur impedit! Dolores porro molestiae quidem dolor ex? Veritatis, ea.
       Quam fugiat ratione, voluptate eligendi porro non sapiente! Doloremque a corporis quisquam enim? Accusantium consectetur facere, unde, repudiandae temporibus aspernatur dolore doloremque a quidem veritatis quam necessitatibus earum suscipit voluptatibus.

@@ -4,7 +4,7 @@ import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="bg-white min-h-screen transition-all duration-300">
+    <div className="bg-white dark:bg-black text-black dark:text-white">
       <Navbar />
       <Hero />
     </div>
