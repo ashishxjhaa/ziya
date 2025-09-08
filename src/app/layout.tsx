@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SplashLayout } from "@/components/SplashLayout";
 import { AnimatedLayout } from "@/components/AnimatedLayout";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,7 +36,14 @@ export default function RootLayout({
       >
         <SplashLayout>
           <AnimatedLayout>
+            <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            enableSystem
+            disableTransitionOnChange
+          >
             {children}
+          </ThemeProvider>
           </AnimatedLayout>
         </SplashLayout>
       </body>
