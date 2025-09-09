@@ -17,8 +17,8 @@ export function ThemeButton() {
             setTheme(theme === "dark" ? "light" : "dark");
         });
 
-        const audio = new Audio("/lightdarkmode.mp3");
-        audio.volume = 0.2;
+        const audio = new Audio("/switchtab.mp3");
+        audio.volume = 0.5;
         audio.play();
     };
 
