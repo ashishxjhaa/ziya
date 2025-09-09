@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable}  bg-neutral-50 dark:bg-neutral-950 overflow-x-hidden antialiased`}
       >
         <SplashLayout>
           <AnimatedLayout>
