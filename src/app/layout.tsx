@@ -37,12 +37,12 @@ export default function RootLayout({
         <SplashLayout>
           <AnimatedLayout>
             <ThemeProvider
-            attribute="class"
-            defaultTheme="light"
-            enableSystem
-          >
-            {children}
-          </ThemeProvider>
+              attribute="class"
+              defaultTheme="light"
+              enableSystem
+            >
+             {children}
+            </ThemeProvider>
           </AnimatedLayout>
         </SplashLayout>
       </body>
