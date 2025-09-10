@@ -1,5 +1,4 @@
 import { Dashboard } from "./Dashboard";
-import { ThemeButton } from "./ThemeButton";
 
 
 export const Navbar = () => {
@@ -10,7 +9,6 @@ export const Navbar = () => {
         </div>
         <div className="flex items-center gap-2 h-12 relative text-black dark:text-white">
           <Dashboard />
-          <ThemeButton />
         </div>
     </nav>
   );
