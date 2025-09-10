@@ -18,7 +18,6 @@ export function ThemeButton() {
         });
 
         const audio = new Audio("/switchtab.mp3");
-        audio.volume = 0.5;
         audio.play();
     };
 
