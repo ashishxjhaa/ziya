@@ -14,7 +14,7 @@ export const Dashboard = () => {
             transition={{ duration: 0.35 }}
     
             className="flex w-fit h-fit px-3 py-1 cursor-pointer rounded-md border border-gray-400 hover:shadow-md">
-            <Link href="/dashboard" className="text-sm font-semibold tracking-wider text-black dark:text-white">
+            <Link href="#" className="text-sm font-semibold tracking-wider text-black">
                 Dashboard
             </Link>
         </motion.button>
